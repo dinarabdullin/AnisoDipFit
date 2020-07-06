@@ -1,0 +1,14 @@
+- python 3.7.X (including modules time, sys, argparse, math, os, datetime, errno, shutil)
+- numpy
+- scipy
+- matplotlib
+- libconf
+
+To compile:
+- pyinstaller
+1) Run:
+pyinstaller --onefile main.py
+2) Edit main.spec:
+exe = EXE(..., [('W ignore', None, 'OPTION')], ...)
+3) Run:
+pyinstaller --onefile main.spec
