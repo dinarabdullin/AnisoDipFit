@@ -94,4 +94,5 @@ def plot_confidence_interval(fig, parameter_values, score_values, parameter_name
     axes.set_xlim(round(np.amin(parameter_values),1), round(np.amax(parameter_values),1))
     axes.set_xlabel(const['variable_labels'][parameter_name])
     axes.set_ylabel(const['chi2_label']['normalized_by_sn'])
-    plt.margins(0.05)
+    axes.ticklabel_format(axis='y', style='sci', scilimits=(0,0), useMathText=True) 
+    
