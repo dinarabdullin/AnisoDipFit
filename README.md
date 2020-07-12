@@ -16,7 +16,7 @@ General Information
 =========
 The source code of the program is written in Python 3.7 using the Python libraries numpy, scipy, matplotlib and libconf.
 
-The Windows and Linux executables of the program are available at: [coming soon]
+The Windows and Linux executables of the program are available at: https://github.com/dinarabdullin/AnisoDipFit/releases
 
 Copyright
 =========
