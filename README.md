@@ -1,5 +1,8 @@
 AnisoDipFit
 =========
+
+Description
+=========
 The program AnisoDipFit was developed for the analysis of the Pulsed EPR Dipolar Spectroscopy (PDS) signals that correspond to spin systems consisting of one isotropic and one anisotropic S = 1/2 centers.
 
 The program has three modes: simulation, fitting, and error analysis.
