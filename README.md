@@ -1,5 +1,8 @@
 AnisoDipFit
 =========
+
+Description
+=========
 The program AnisoDipFit was developed for the analysis of the Pulsed EPR Dipolar Spectroscopy (PDS) signals that correspond to spin systems consisting of one isotropic and one anisotropic S = 1/2 centers.
 
 The program has three modes: simulation, fitting, and error analysis.
@@ -16,7 +19,7 @@ General Information
 =========
 The source code of the program is written in Python 3.7 using the Python libraries numpy, scipy, matplotlib and libconf.
 
-The Windows and Linux executables of the program are available at: [coming soon]
+The Windows and Linux executables of the program are available at: https://github.com/dinarabdullin/AnisoDipFit/releases
 
 Copyright
 =========
