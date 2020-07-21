@@ -38,7 +38,7 @@ const['long_variable_names'] = {
 	'xi_mean'  : 'xi mean (deg)',
 	'xi_width' : 'xi width (deg)', 
 	'phi_mean' : 'phi mean (deg)', 
-	'phi_width': 'phi mean (deg)',
+	'phi_width': 'phi width (deg)',
 	'temp'     : 'temperature (K)'}
 
 const['variable_scales'] = {
