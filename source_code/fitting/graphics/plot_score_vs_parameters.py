@@ -22,18 +22,14 @@ alignement = [[1,1], [1,2], [1,3], [2,2], [2,3], [2,3], [2,4], [2,4], [3,3], [3,
 
 def plot_score_vs_parameters(parameters, score_vs_parameters, confidence_interval, numerical_error, best_parameters, save_figure=False, filename=''): 
     Ne = len(parameters)
-    c = 1
     fig = plt.figure(figsize=(18,9), facecolor='w', edgecolor='w')
     for i in range(Ne):
         dim = len(parameters[i])
         score_threshold = calculate_score_threshold(confidence_interval, numerical_error, dim)
+        plt.subplot(alignement[Ne-1][0], alignement[Ne-1][1], i+1)
         if (dim == 1):
-            plt.subplot(alignement[Ne-1][0], alignement[Ne-1][1], c)
-            c = c + 1
             im = plot_1d(fig, parameters[i], score_vs_parameters[i], score_threshold, best_parameters)
         elif (dim == 2):
-            plt.subplot(alignement[Ne-1][0], alignement[Ne-1][1], c)
-            c = c + 1
             im = plot_2d(fig, parameters[i], score_vs_parameters[i], score_threshold, best_parameters)
     plt.tight_layout()
     plt.subplots_adjust(bottom=0.15, right=0.80, top=0.9)
