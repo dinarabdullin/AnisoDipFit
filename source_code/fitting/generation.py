@@ -80,10 +80,10 @@ class Generation:
         parameters = []
         for i in range(self.size): 
             parameters.append(self.chromosomes[i].genes)
-        pool = Pool()
-        score = pool.map(func, parameters)
-        pool.close()
-        pool.join()
+        self.pool = Pool()
+        score = self.pool.map(func, parameters)
+        self.pool.close()
+        self.pool.join()
         for i in range(self.size):
             self.chromosomes[i].score = score[i]	
                 

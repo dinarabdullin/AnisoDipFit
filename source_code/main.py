@@ -2,6 +2,7 @@
 Main file of AnisoDipFit
 '''
 
+import multiprocessing
 import argparse
 from input.read_config import read_config
 from simulation.simulation import Simulator
@@ -18,6 +19,7 @@ from supplement.keep_figures_live import keep_figures_live
 
 
 if __name__ == '__main__':
+    multiprocessing.freeze_support()
     # Read out the config file 
     parser = argparse.ArgumentParser()
     parser.add_argument('filepath', help="A path to a configuration file")
