@@ -25,6 +25,7 @@ Copyright
 =========
 This program can be distributed under GNU General Public License.
 
-If you use this code please cite: 
-1) D. Abdullin, H. Matsuoka, M. Yulikov, N. Fleck, C. Klein, S. Spicher, G. Hagelueken, S. Grimme, A. Lützen, O. Schiemann, “Pulsed EPR Dipolar Spectroscopy under the Breakdown of the High-Field Approximation: The High-Spin Iron(III) Case”, Chem. Eur. J. 2019, 25, 8820-8828.
-2) D. Abdullin, P. Brehm, N. Fleck, S. Spicher, S. Grimme, O. Schiemann, “Pulsed EPR Dipolar Spectroscopy on Spin Pairs with one Highly Anisotropic Spin Center: The Low-Spin Fe(III) Case”, Chem. Eur. J. 2019, 25, 14388-14398.
+If you use this code please cite:
+1) D. Abdullin,* “AnisoDipFit: Simulation and Fitting of Pulsed EPR Dipolar Spectroscopy Data for Anisotropic Spin Centers”, Appl. Magn. Reson. 2020, 51, 725-748.
+2) D. Abdullin, H. Matsuoka, M. Yulikov, N. Fleck, C. Klein, S. Spicher, G. Hagelueken, S. Grimme, A. Lützen, O. Schiemann, “Pulsed EPR Dipolar Spectroscopy under the Breakdown of the High-Field Approximation: The High-Spin Iron(III) Case”, Chem. Eur. J. 2019, 25, 8820-8828.
+3) D. Abdullin, P. Brehm, N. Fleck, S. Spicher, S. Grimme, O. Schiemann, “Pulsed EPR Dipolar Spectroscopy on Spin Pairs with one Highly Anisotropic Spin Center: The Low-Spin Fe(III) Case”, Chem. Eur. J. 2019, 25, 14388-14398.
