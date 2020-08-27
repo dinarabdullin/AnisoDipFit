@@ -13,7 +13,7 @@ In the fitting mode, the experimental PDS time trace / spectrum is fitted by mea
 
 In the error analysis mode, the errors of optimized fitting parameters are estimated.
 
-Further description of the program can be found in the Manual and the papers below.
+Further description of the program can be found in the Manual and in the papers below.
 
 General Information
 =========
