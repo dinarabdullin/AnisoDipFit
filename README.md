@@ -1,4 +1,4 @@
-AnisoDipFit
+AnisoDipFit Version 1.0
 =========
 
 Description
