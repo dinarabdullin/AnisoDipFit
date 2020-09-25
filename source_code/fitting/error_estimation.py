@@ -126,9 +126,10 @@ def calculate_parameter_error(parameter_values, score_values, score_threshold):
     parameter_error_lb = np.abs(parameter_opt - lower_bound)
     parameter_error_ub = np.abs(parameter_opt - upper_bound)
     parameter_error = np.nan
-    if (lower_bound > parameter_min) or (upper_bound < parameter_max):
-        if (parameter_error_lb > parameter_error_ub):
-            parameter_error = parameter_error_lb
-        else:
-            parameter_error = parameter_error_ub  
+    if (parameter_error_lb+parameter_error_ub) < 0.95 * (parameter_min+parameter_max):
+        if (lower_bound > parameter_min) or (upper_bound < parameter_max):
+            if (parameter_error_lb > parameter_error_ub):
+                parameter_error = parameter_error_lb
+            else:
+                parameter_error = parameter_error_ub  
     return parameter_error
