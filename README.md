@@ -25,7 +25,7 @@ https://github.com/dinarabdullin/AnisoDipFit/releases
 By default, the program is a console application (i.e. it can be run from Terminal or Command Prompt). 
 Alternatively, the Graphical User Interface of the program can be found at: 
 https://github.com/PabloRauhCorro/AnisoDipFit (source code, manual, examples) and
-https://github.com/PabloRauhCorro/AnisoDipFit/releases (executables, manual, examples: comming soon!).
+https://github.com/PabloRauhCorro/AnisoDipFit/releases (executables, manual, examples).
 
 Copyright
 =========
